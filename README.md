@@ -1,7 +1,11 @@
+*Read this in other languages: [中国](README-cn.md), [日本](README-ja.md).*
+
 # air-traffic-control
 [![Build Status](https://travis-ci.org/IBM/air-traffic-control.svg?branch=master)](https://travis-ci.org/IBM/air-traffic-control)
 
 This repository contains instructions to build modern Cloud-based Air Traffic Control using IBM Cloud.
+
+> Note: A Raspberry Pi, SDR receiver with antenna, and an iOS device is required to fully complete this Code Pattern.
 
 The Air Traffic Control Service receives flight information from a Raspberry Pi powered ADS-B Ground Stations with Software Defined Radio(SDR) to receive ADS-B messages directly from commercial flights and publish MQTT messages to the IBM IoT Platform running in IBM Cloud. It also supports a Swift-based iOS app to track flights using the Augmented Reality toolkit by receiving MQTT messages from the IoT Platform. The app will display all the flights traveling point to point within the range of the receiver.
 
@@ -38,4 +42,6 @@ The instructions for tracking flights using Swift-based iOS app are [here](https
 
 # License
 
-[Apache 2.0](LICENSE.md)
+This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
+
+[Apache Software License (ASL) FAQ](http://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
